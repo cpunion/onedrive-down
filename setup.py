@@ -9,6 +9,9 @@ setup(
     long_description=__doc__,
     author='Li Jie',
     author_email='cpunion@gmail.com',
+    packages=[
+        'onedrive_down',
+    ],
     entry_points={
         'console_scripts': ['onedrive-down=onedrive_down:main']
     },
